@@ -1,0 +1,17 @@
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.Business.deps.json
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.Business.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.Business.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.csproj.AssemblyReference.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.AssemblyInfoInputs.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.AssemblyInfo.cs
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.csproj.CoreCompileInputs.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\refint\Pironia.Business.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\ref\Pironia.Business.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.Core.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.DataAccess.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.DataAccess.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\bin\Debug\net6.0\Pironia.Core.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Business\obj\Debug\net6.0\Pironia.Business.csproj.CopyComplete

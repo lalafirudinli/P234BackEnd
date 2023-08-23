@@ -1,0 +1,12 @@
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\bin\Debug\net6.0\Pironia.Core.deps.json
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\bin\Debug\net6.0\Pironia.Core.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\bin\Debug\net6.0\Pironia.Core.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.csproj.AssemblyReference.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.AssemblyInfoInputs.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.AssemblyInfo.cs
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.csproj.CoreCompileInputs.cache
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\refint\Pironia.Core.dll
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\Pironia.Core.pdb
+C:\Users\lalaf\source\repos\Projects\Pironia.Core\obj\Debug\net6.0\ref\Pironia.Core.dll
