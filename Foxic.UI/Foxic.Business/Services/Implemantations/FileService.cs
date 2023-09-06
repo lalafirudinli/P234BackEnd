@@ -22,14 +22,14 @@ namespace Foxic.Business.Services.Implemantations
 		}
 		public async Task<string> UploadFile(IFormFile file, string root, int kb, params string[] folders)
 		{
-			if (!file.CheckFileSize(kb))
+            if (!file.CheckFileSize(kb))
 			{
-				throw new FileSizeException("Size ");
+				throw new FileSizeException("File size must be less than 300kb");
 			}
 			if (!file.CheckFileType("image"))
 			{
 				{
-					throw new FileTypeException("Image");
+					throw new FileTypeException("Please select image type");
 				}
 			}
 			string folderRoot = string.Empty;

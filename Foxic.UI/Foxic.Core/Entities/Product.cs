@@ -34,6 +34,9 @@ public class Product : BaseEntity
         public Product()
         {
             Images = new();
-        }
+            Colors = new List<ProductColor>();
+            Orders = new List<OrderItem>();
+            Sizes = new List<ProductSize>();
+    }
 
 }

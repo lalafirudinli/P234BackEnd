@@ -8,10 +8,9 @@ namespace Foxic.Core.Entities;
 
 public class Order : BaseEntity
 {
-    public int Id { get; set; } 
-    public int TotalPrice { get; set; }
-    public int CreatedTime { get; set; }
-    public int Description { get; set; }
+    public double TotalPrice { get; set; }
+    public DateTime CreatedTime { get; set; }
+    public string? Description { get; set; }
 
 	public ICollection<OrderItem> Products { get; set; }
 }

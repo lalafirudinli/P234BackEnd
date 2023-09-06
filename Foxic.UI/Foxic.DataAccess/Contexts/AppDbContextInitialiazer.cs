@@ -41,7 +41,6 @@ public class AppDbContextInitializer
 			}
 		}
 	}
-
 	public async Task CreateAdmin()
 	{
 		AppUser superadmin = new()

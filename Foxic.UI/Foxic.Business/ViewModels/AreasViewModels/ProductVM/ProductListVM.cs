@@ -11,6 +11,7 @@ namespace Foxic.Business.ViewModels.AreasViewModels.ProductVM;
 
 public class ProductListVM
 {
+    public int Id { get; set; }
     public string? Name { get; set; }
     public int Discount { get; set; }
     public int Stock {get; set; }
@@ -18,7 +19,7 @@ public class ProductListVM
     public Category Category { get; set; }
     public Collections Collections { get; set; }
     public Brand Brand { get; set; }
-    public string Images { get; set; }
+    public string? Images { get; set; }
     public IFormFile MainImage { get; set; }   
    
 }

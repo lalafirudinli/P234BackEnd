@@ -1,5 +1,8 @@
-﻿@*@model List<Slider>
-*@@{
+﻿@using Foxic.Core.Entities.Areas;
+@using Foxic.Core.Entities;
+@using Foxic.UI.ViewModels.HomeVM;
+@model HomeVM
+@{
 	ViewData["Title"] = "Index";
 }
 
@@ -10,17 +13,18 @@
 		<div class="container">
 			<div class="bnslider-wrapper">
 				<div class="bnslider bnslider--lg keep-scale" id="bnslider-001" data-slick='{"arrows": true, "dots": true}' data-autoplay="false" data-speed="12000" data-start-width="1917" data-start-height="764" data-start-mwidth="1550" data-start-mheight="1000">
-					@*					@foreach (Slider slider in Model)
+										@foreach (Slider slider in Model.Sliders)
 					{
 					<div class="bnslider-slide">
-					<div class="bnslider-image-mobile lazyload" data-bgset="assets/images/skins/fashion/slider/slide-fashion-02-m.png"></div>
-					<div class="bnslider-image lazyload" data-bgset="assets/images/skins/fashion/slider/slide-fashion-02.png"></div>
+						<img src="@slider.ImageUrl" style="witdth:100%; object-fit:cover" class="m-auto" />
+					<div class="bnslider-image-mobile lazyload" data-bgset=""></div>
+					<div class="bnslider-image lazyload" data-bgset=""></div>
 					<div class="bnslider-text-wrap bnslider-overlay ">
 					<div class="bnslider-text-content txt-middle txt-right txt-middle-m txt-center-m">
 					<div class="bnslider-text-content-flex ">
 					<div class="bnslider-vert w-s-60 w-ms-100" style="padding: 0px">
-					<div class="bnslider-text order-1 mt-sm bnslider-text--md text-center data-ini" data-animation="fadeInUp" data-animation-delay="800" data-fontcolor="#282828" data-fontweight="700" data-fontline="1.5">@slider.SliderName</div>
-					<div class="bnslider-text order-2 mt-sm bnslider-text--xs text-center data-ini" data-animation="fadeInUp" data-animation-delay="1000" data-fontcolor="#7c7c7c" data-fontweight="400" data-fontline="1.5">@slider.SliderAbout</div>
+					<div class="bnslider-text order-1 mt-sm bnslider-text--md text-center data-ini" data-animation="fadeInUp" data-animation-delay="800" data-fontcolor="#282828" data-fontweight="700" data-fontline="1.5">@slider.Title</div>
+					<div class="bnslider-text order-2 mt-sm bnslider-text--xs text-center data-ini" data-animation="fadeInUp" data-animation-delay="1000" data-fontcolor="#7c7c7c" data-fontweight="400" data-fontline="1.5">@slider.Description</div>
 					<div class="btn-wrap text-center  order-4 mt-md" data-animation="fadeIn" data-animation-delay="2000" style="opacity: 1;">
 					<a href="https://bit.ly/3eJX5XE" target="_blank" class="btn">
 					Shop now
@@ -32,7 +36,7 @@
 					</div>
 					</div>
 					}
-					*@					<div class="bnslider-slide slick-slide is-paused" data-autoplay="true" data-video-type="video" data-slick-index="2" aria-hidden="true" style="width: 1903px; position: relative; left: -3806px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;" id="slick-slide02">
+										<div class="bnslider-slide slick-slide is-paused" data-autoplay="true" data-video-type="video" data-slick-index="2" aria-hidden="true" style="width: 1903px; position: relative; left: -3806px; top: 0px; z-index: 998; opacity: 0; transition: opacity 500ms ease 0s;" id="slick-slide02">
 						<div class="video-wrap">
 							<video playsinline="" loop="" preload="auto">
 								<source src="" type="video/mp4">
@@ -69,6 +73,8 @@
 	<div class="holder holder-mt-xsmall">
 		<div class="container">
 			<div class="row vert-margin-small">
+				@foreach(Category category in Model.Categories) 
+				{
 				<div class="col-sm">
 					<a href="category.html" class="collection-grid-3-item image-hover-scale">
 						<div class="collection-grid-3-item-img image-container" style="padding-bottom: 93.68%">
@@ -81,18 +87,9 @@
 						</div>
 					</a>
 				</div>
-				<div class="col-sm">
-					<a href="category.html" class="collection-grid-3-item image-hover-scale">
-						<div class="collection-grid-3-item-img image-container" style="padding-bottom: 93.68%">
-							<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src="assets/images/skins/fashion/banner-fashion-2-04.png" class="lazyload fade-up" alt="Banner">
-							<div class="foxic-loader"></div>
-						</div>
-						<div class="collection-grid-3-caption-bg">
-							<h3 class="collection-grid-3-title">Fashion</h3>
-							<h4 class="collection-grid-3-subtitle">Live&nbsp;According&nbsp;to&nbsp;Fashion</h4>
-						</div>
-					</a>
-				</div>
+					
+				}
+				
 			</div>
 		</div>
 	</div>
